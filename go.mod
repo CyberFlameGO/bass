@@ -10,6 +10,7 @@ require (
 	github.com/c-bata/go-prompt v0.2.6
 	github.com/cenkalti/backoff/v4 v4.1.2
 	github.com/containerd/containerd v1.6.6
+	github.com/docker/cli v20.10.17+incompatible
 	github.com/docker/distribution v2.8.1+incompatible
 	github.com/docker/docker v20.10.7+incompatible
 	github.com/gertd/go-pluralize v0.1.7
@@ -46,10 +47,10 @@ require (
 	github.com/zmb3/spotify/v2 v2.2.1
 	go.opentelemetry.io/otel v1.4.1
 	go.uber.org/zap v1.19.1
-	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
-	golang.org/x/term v0.0.0-20220411215600-e5f449aeb171
+	golang.org/x/crypto v0.14.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.13.0
+	golang.org/x/term v0.13.0
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.27.1
 )
@@ -71,7 +72,6 @@ require (
 	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
 	github.com/danwakefield/fnmatch v0.0.0-20160403171240-cbb64ac3d964 // indirect
 	github.com/dlclark/regexp2 v1.4.0 // indirect
-	github.com/docker/cli v20.10.17+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776 // indirect
 	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect
@@ -120,12 +120,12 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/goleak v1.1.12 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
+	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
-	golang.org/x/tools v0.1.10 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220310185008-1973136f34c6 // indirect
